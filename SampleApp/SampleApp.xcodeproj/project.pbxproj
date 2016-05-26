@@ -13,6 +13,7 @@
 		FD29F1351CD34CC800BFA8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD29F1341CD34CC800BFA8CC /* Assets.xcassets */; };
 		FD29F1381CD34CC800BFA8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD29F1361CD34CC800BFA8CC /* LaunchScreen.storyboard */; };
 		FD29F1431CD34CC800BFA8CC /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD29F1421CD34CC800BFA8CC /* SampleAppTests.swift */; };
+		FD63E9B81CF7489F00AB12C2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63E9B71CF7489F00AB12C2 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FD29F13E1CD34CC800BFA8CC /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD29F1421CD34CC800BFA8CC /* SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppTests.swift; sourceTree = "<group>"; };
 		FD29F1441CD34CC900BFA8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD63E9B71CF7489F00AB12C2 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FD29F12D1CD34CC700BFA8CC /* AppDelegate.swift */,
 				FD29F12F1CD34CC700BFA8CC /* ViewController.swift */,
+				FD63E9B71CF7489F00AB12C2 /* ViewController2.swift */,
 				FD29F1311CD34CC800BFA8CC /* Main.storyboard */,
 				FD29F1341CD34CC800BFA8CC /* Assets.xcassets */,
 				FD29F1361CD34CC800BFA8CC /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			files = (
 				FD29F1301CD34CC700BFA8CC /* ViewController.swift in Sources */,
 				FD29F12E1CD34CC700BFA8CC /* AppDelegate.swift in Sources */,
+				FD63E9B81CF7489F00AB12C2 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

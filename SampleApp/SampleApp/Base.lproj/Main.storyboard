@@ -29,7 +29,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Dh-VN-YEh" kind="show" id="RPA-bW-ZSu"/>
+                                    <segue destination="3Dh-VN-YEh" kind="show" identifier="toViewController2" id="RPA-bW-ZSu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKz-3y-LxF">
@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="284" y="372"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="MBX-dZ-DF4">
             <objects>
-                <viewController id="3Dh-VN-YEh" sceneMemberID="viewController">
+                <viewController id="3Dh-VN-YEh" customClass="ViewController2" customModule="SampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zxA-Go-pFc"/>
                         <viewControllerLayoutGuide type="bottom" id="Os7-Dq-HTi"/>
@@ -148,7 +148,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zIj-0V-LjW">
                                 <rect key="frame" x="48" y="622" width="128" height="64"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jq9-02-a8A">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jq9-02-a8A">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="64"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -160,7 +160,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="2tF-Cq-b5H"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="toViewController" id="2tF-Cq-b5H"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -374,6 +374,7 @@
                             <constraint firstItem="S5T-QA-8ms" firstAttribute="leading" secondItem="vdS-Rw-WWq" secondAttribute="leading" id="IBd-Gv-fFs"/>
                             <constraint firstItem="q8Y-1t-hOv" firstAttribute="leading" secondItem="KmQ-LQ-C66" secondAttribute="leading" id="IUK-AQ-KCO"/>
                             <constraint firstItem="x45-iM-tyz" firstAttribute="top" secondItem="Nsn-g3-yem" secondAttribute="top" id="JVP-Qp-Plf"/>
+                            <constraint firstItem="Os7-Dq-HTi" firstAttribute="top" secondItem="Jq9-02-a8A" secondAttribute="bottom" constant="50" id="N9c-cQ-dG4"/>
                             <constraint firstItem="x45-iM-tyz" firstAttribute="leading" secondItem="vdS-Rw-WWq" secondAttribute="leading" id="Ntu-11-yxg"/>
                             <constraint firstItem="EuI-1U-zmQ" firstAttribute="leading" secondItem="KmQ-LQ-C66" secondAttribute="leading" id="O01-Af-ZsE"/>
                             <constraint firstItem="lXq-cI-AuE" firstAttribute="top" secondItem="VYj-w6-OBx" secondAttribute="top" id="O6e-jq-sfd"/>
@@ -389,6 +390,7 @@
                             <constraint firstItem="Nsn-g3-yem" firstAttribute="leading" secondItem="qnT-su-NTz" secondAttribute="leading" id="izm-ue-5Zj"/>
                             <constraint firstItem="Wfd-1D-0fj" firstAttribute="centerX" secondItem="Vus-IG-8ao" secondAttribute="centerX" id="lTy-yp-LVm"/>
                             <constraint firstItem="q8Y-1t-hOv" firstAttribute="top" secondItem="pxb-r3-3QZ" secondAttribute="top" id="nkt-oW-vUV"/>
+                            <constraint firstItem="Jq9-02-a8A" firstAttribute="leading" secondItem="Wfd-1D-0fj" secondAttribute="leading" id="qZ7-mv-iMR"/>
                             <constraint firstItem="KmQ-LQ-C66" firstAttribute="top" secondItem="qnT-su-NTz" secondAttribute="top" id="qe2-0f-erV"/>
                             <constraint firstItem="QX0-iI-iol" firstAttribute="leading" secondItem="KmQ-LQ-C66" secondAttribute="leading" id="uXz-DB-KMo"/>
                             <constraint firstItem="qnT-su-NTz" firstAttribute="top" secondItem="Wfd-1D-0fj" secondAttribute="bottom" id="uea-Gv-lOv"/>
